@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <link href="index.css" rel="stylesheet">
+  <link rel="stylesheet" href="output.css">
+</head>
+<body>
+  <header>
+    <nav class="flex justify-between" style="padding: 50px;">
+      <h2 class="font-black text-2xl logo duration-700"><a href="index.html">TechZone</a></h2>
+
+      <div class="flex flex-nowrap">
+        <ul class="flex gap-8 nav duration-700 items-center">
+          <li><a href="#">Hogar</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Inscribirse</a></li>
+        </ul>
+      </div>
+
+      <div class="flex gap-20 items-center">
+        <div class="flex gap-4 items-center ">
+          <input type="search"  class="rounded-lg flex p-2  items-center " style="background-color: lightgray; max-width: 200px;" placeholder="¿Qué estás buscando?" >
+          <i class="fas fa-search absolute flex items-end" style="margin-left: 8.8vw;"></i>
+        </div>
+        <div class="flex gap-8">
+          <a href="#"><i class="fa fa-heart icon-nav duration-700"></i></a>
+          <a href="#"><i class="fas fa-shopping-cart icon-nav duration-700"></i></a>
+        </div>
+      </div>
+    </nav>
+
+    <hr style="width: 96%; margin: auto; color: rgba(0, 0, 0, 0.137);">
+  </header>
+
+  <main>
+    
+    <section class="sectio-1">
+      <article>
+        <div class="anuncio1">
+          <button><a href="#">Ver más &rarr;</a></button>
+        </div>
+      </article>
+
+      <article>
+        <div class="icon-hoy flex items-center gap-4 ml-40 mr-40 mt-40">
+          <img src="img/roxinho.png" alt="roxinho" class="roxinho">
+          <h4 class="font-medium text-2xl">Hoy</h4>
+        </div>
+
+        <div class="contagem">
+          <h2 class="font-medium text-2xl">Oferta termina em:</h2>
+          <div id="timer">
+            <div><span id="days">00</span><p>Días</p></div>
+            <div><span id="hours">00</span><p>Horas</p></div>
+            <div><span id="minutes">00</span><p>Minutos</p></div>
+            <div><span id="seconds">00</span><p>Segundos</p></div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+
+
+  </main>
+
+  <script src="js.js"></script>
+</body>
+</html>

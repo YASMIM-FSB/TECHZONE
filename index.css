@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+:root{
+    --primary-color: #7B2CBF;
+}
+
+.nav li:hover{
+    color: purple;
+}
+
+.logo:hover{
+    color: purple;
+}
+
+.icon-nav:hover{
+    color: purple;
+}
+
+.anuncio1 button {
+  width: 65%;
+  height: 50vh; /* altura proporcional ao banner */
+  background-image: url("img/Computadora para juegos.png");
+  background-size: cover;       /* preenche toda a área */
+  background-position: center;  /* centraliza o foco da imagem */
+  background-repeat: no-repeat;
+  background-color: transparent;
+  
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 28px;
+
+  /* Layout interno (texto dentro da imagem) */
+  display: flex;
+  align-items: flex-end;  /* texto embaixo */
+  justify-content: flex-start; /* texto à esquerda */
+  padding: 10px 60px 90px 50px; /* espaçamento interno */
+
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+}
+
+.anuncio1 button a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.anuncio1 button a:hover {
+  color: #a855f7; /* leve tom roxo no hover */
+}
+
+.anuncio1{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.roxinho{
+    height: 40px;
+    width: 20px;
+}
+
+.icon-hoy h4{
+    color: var(--primary-color);
+}
+
+.contagem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  text-align: center;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  padding: 40px;
+  border-radius: 20px;
+  width: fit-content;
+  margin: 15px 0 50px 8.3vw;
+}
+
+#timer {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+#timer div {
+  background: rgba(119, 119, 119, 0.027);
+  box-shadow: 0 0 20px rgba(0,0,0,0.08);
+  padding: 20px 25px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  min-width: 90px;
+}
+
+#timer span {
+  font-size: 40px;
+  font-weight: 700;
+  display: block;
+  color: black;
+}
+
+#timer p {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #3a3a3a;
+}
